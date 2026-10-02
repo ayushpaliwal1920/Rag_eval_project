@@ -1,0 +1,22 @@
+[project]
+name = "rageval-project"
+version = "0.1.0"
+description = "RAG application and evaluation suite for LLM applications"
+readme = "README.md"
+authors = [
+    { name = "Ayush Paliwal", email = "ayushpaliwal1920@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "langchain>=1.4.2",
+    "langchain-chroma>=1.1.0",
+    "langchain-core>=1.6.4",
+    "langchain-openai>=1.1.0",
+    "langsmith>=0.4.0",
+    "langchain-text-splitters>=1.1.2",
+    "deepeval>=2.9.0",
+    "python-dotenv>=1.2.3",
+    "sentence-transformers>=5.0.0",
+    "streamlit>=1.40.0",
+]
+

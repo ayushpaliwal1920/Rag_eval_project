@@ -1,0 +1,40 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+.Python
+
+# Test and analysis caches
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.pyre/
+.ruff_cache/
+.tox/
+
+# Logs
+*.log
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local credentials and generated artifacts
+.env
+.env.*
+!.env.example
+chroma_store/
+baselines/
+.streamlit/secrets.toml
+.streamlit/cache/
+
+# Local editor and operating-system files
+.idea/
+.DS_Store
+Thumbs.db
